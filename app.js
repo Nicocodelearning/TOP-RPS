@@ -1,4 +1,4 @@
-/* function getComputerChoice() {
+function getComputerChoice() {
     let proba = Math.random()
     if (proba < 0.333) { return "Rock" }
     else if (proba >= 0.333 && proba < 0.666) { return "Paper" }
@@ -51,16 +51,4 @@ function playGame(nbrRound) {
     else if (computerScore < humanScore) { console.log("Congrats! You won!") }
     else { console.log("Ex-aequo!") }
 }
-playGame() */
-let arr = ["HTML", "JavaScript", "CSS"];
-
-function copySorted(arr) {
-    copy = []
-    for (item of arr) { copy.push(item) }
-    return copy.sort()
-}
-
-let sorted = copySorted(arr);
-
-alert(sorted); // CSS, HTML, JavaScript
-alert(arr); // HTML, JavaScript, CSS (no changes)
+playGame() 
