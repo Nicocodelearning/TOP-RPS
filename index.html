@@ -5,10 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+    <title>Odin-RPS</title>
 </head>
 
 <body>
+    <h1>Odin's Rock-Paper-Scissors</h1>
+    <div class="indy">Choose wisely ...</div>
+    <div class="choices"">
+        <button id=" rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div class="ongoingRound">
+        <h3>Your choice:</h3>
+        <p class="playerChoiceTxt"></p>
+        <img src="" alt="" class="playerChoiceImg" width="200px">
+        <h3>Computer Choice:</h3>
+        <p class="computerChoiceTxt"></p>
+        <img src="" alt="" class=" computerChoiceImg" width="200px">
+    </div>
+    <h2 class="roundResult"></h2>
+    <div class="scoresBoard">
+        <h2>Scores</h2>
+        <p>Player:</p>
+        <p class="playerScore">0</p>
+        <p>Computer:</p>
+        <p class="computerScore">0</p>
+        <button class="restart">Restart</button>
+    </div>
 
 </body>
 
